@@ -15,14 +15,14 @@ function ItemsList({ list }) {
 }
 
 // These answers objects keys match the values attributes from the checkboxes
-const answersSet = {
+export const answersSet = {
   colour: "It's yellow!",
   sound: "It squeaks!",
   logo: "It has a logo!",
   size: "Its big!"
 };
 
-const answersSetTwo = {
+export const answersSetTwo = {
   swimming: "Swimming",
   bathing: "Bathing",
   chatting: "Chatting",
