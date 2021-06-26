@@ -1,6 +1,6 @@
 import CheckboxItem from "./CheckboxItem";
 
-function Checkboxes({name, answersSet}) {
+function Checkboxes({name, answersSet, onChangeFunction}) {
     
     const values = Object.keys(answersSet)
     const innerText = Object.values(answersSet)
@@ -15,6 +15,7 @@ function Checkboxes({name, answersSet}) {
                     value={value}
                     innerText={innerText}
                     index={index}
+                    onChangeFunction={onChangeFunction}
                     />
                 )
             })}

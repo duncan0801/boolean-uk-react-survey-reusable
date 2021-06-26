@@ -1,11 +1,12 @@
-function RadioButtonsGroupItem({groupName, value, index, }) {
+function RadioButtonsGroupItem({groupName, value, index, onChangeFunction }) {
     return (
         <li>
             <input 
             id={`${groupName}${value}`} 
             type="radio" 
+            onChange={onChangeFunction}
             name={groupName} 
-            value={value[index]} />
+            value={`${value}`} />
             <label htmlFor={`${groupName}${value}`}>
             {`${value}`}
             </label>

@@ -1,0 +1,19 @@
+- Create the missing form, following the templates in the templates folder
+- Create a reusable Checkboxes component
+- Create a reusable RadioButtons component
+- Create a reusable textInput component
+- You can create the textarea straight in the form's jsx
+
+- When the form is submitted, the answers should be stored in state
+- Also, after submitting the form, you should reset the form to its original state 
+- Display all the answers in the Answers List, using the provided components
+
+Tips
+- The form might look quite big, but there are opportunities here to reuse some of the components you create within the form
+- Remember that in a controlled form, the state is the one keeping track of the inputs values
+
+Challenge
+Expand your survey! Add a second page to the form, by using your reusable components. You should have only one page at a time displaying
+
+Challenge 2
+Add an edit button to each of the answers cards. Clicking on this button should fill in the form with the current answers, and submitting the form should save the changes into the same card again.

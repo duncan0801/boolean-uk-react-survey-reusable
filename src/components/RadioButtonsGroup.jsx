@@ -1,6 +1,6 @@
 import RadioButtonsGroupItem from "./RadioButtonsGroupItem"
 
-function RadioButtonsGroup({groupName}) {
+function RadioButtonsGroup({groupName, onChangeFunction}) {
 
     // function createValuesArray() {
     //     const myArray = []
@@ -19,6 +19,7 @@ function RadioButtonsGroup({groupName}) {
             value={value}
             index={index}
             groupName={groupName}
+            onChangeFunction={onChangeFunction}
             />
             )
         }))}
